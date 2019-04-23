@@ -16,12 +16,10 @@ public class Fractal : MonoBehaviour
         gameObject.AddComponent<MeshRenderer>().material = material;
         if (depth < maxDepth) {
             StartCoroutine(CreateChildren());
-            new GameObject("Fractal Child").AddComponent<Fractal>().Initialize(this,Vector3.up);
-            new GameObject("Rractal Child").AddComponent<Fractal>().Initialize(this,Vector3.right);
         } 
     }
 
- 
+   
 
     private static Vector3[] childDirections = {
         Vector3.up, 
@@ -39,11 +37,11 @@ public class Fractal : MonoBehaviour
         Quaternion.Euler(-90f, 0f, 0f)
     };
 
-    private IEnumerator CreateChildren ()
+     private IEnumerator CreateChildren ()
     {
         for (int i = 0; i< childDirections.Length; i++)
         {
-            yield return new WaitForSeconds(Random.Range(0.1f, 0.5f));
+            yield return new WaitForSeconds(Random.Range(0.1f,0.5f));
             new GameObject("Fractal Child").AddComponent<Fractal>().Initialize(this,i);
         }
     }
