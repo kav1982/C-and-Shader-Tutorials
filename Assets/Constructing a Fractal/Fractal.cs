@@ -24,7 +24,11 @@ public class Fractal : MonoBehaviour
  
 
     private static Vector3[] childDirections = {
-        Vector3.up, Vector3.right, Vector3.left, Vector3.forward, Vector3.back
+        Vector3.up, 
+        Vector3.right, 
+        Vector3.left, 
+        Vector3.forward, 
+        Vector3.back
     };
 
     private static Quaternion[] childOrientations = {
@@ -39,7 +43,7 @@ public class Fractal : MonoBehaviour
     {
         for (int i = 0; i< childDirections.Length; i++)
         {
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(Random.Range(0.1f, 0.5f));
             new GameObject("Fractal Child").AddComponent<Fractal>().Initialize(this,i);
         }
     }
