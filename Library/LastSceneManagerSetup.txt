@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Constructing a Fractal/Fractal.unity
+- path: Assets/05.Frames Per Second/Frames Per Second.unity
   isLoaded: 1
   isActive: 1

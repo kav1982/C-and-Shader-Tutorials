@@ -53,13 +53,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Building a Graph\Graph.cs" />
-     <Compile Include="Assets\Building a Graph\GraphFunc.cs" />
-     <Compile Include="Assets\Building a Graph\GraphFuncName.cs" />
-     <Compile Include="Assets\Clock\Clock.cs" />
-     <Compile Include="Assets\Constructing a Fractal\Fractal.cs" />
-     <None Include="Assets\Mathematical Srufaces\ColoredPoint.shader" />
-     <None Include="Assets\Building a Graph\ColoredPoint.shader" />
+     <Compile Include="Assets\01.Clock\Clock.cs" />
+     <Compile Include="Assets\02.Building a Graph\Graph.cs" />
+     <Compile Include="Assets\02.Building a Graph\GraphFunc.cs" />
+     <Compile Include="Assets\02.Building a Graph\GraphFuncName.cs" />
+     <Compile Include="Assets\04.Constructing a Fractal\Fractal.cs" />
+     <Compile Include="Assets\05.Frames Per Second\Nucleon.cs" />
+     <Compile Include="Assets\05.Frames Per Second\NucleonSpawner.cs" />
+     <None Include="Assets\03.Mathematical Srufaces\ColoredPoint.shader" />
+     <None Include="Assets\02.Building a Graph\ColoredPoint.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/GitHub/C-and-Shader-Tutorials/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
