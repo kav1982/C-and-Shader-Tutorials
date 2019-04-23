@@ -58,6 +58,7 @@
      <Compile Include="Assets\02.Building a Graph\GraphFunc.cs" />
      <Compile Include="Assets\02.Building a Graph\GraphFuncName.cs" />
      <Compile Include="Assets\04.Constructing a Fractal\Fractal.cs" />
+     <Compile Include="Assets\05.Frames Per Second\FPSCounter.cs" />
      <Compile Include="Assets\05.Frames Per Second\Nucleon.cs" />
      <Compile Include="Assets\05.Frames Per Second\NucleonSpawner.cs" />
      <None Include="Assets\03.Mathematical Srufaces\ColoredPoint.shader" />
