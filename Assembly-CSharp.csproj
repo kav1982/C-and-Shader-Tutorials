@@ -61,6 +61,11 @@
      <Compile Include="Assets\05.Frames Per Second\FPSCounter.cs" />
      <Compile Include="Assets\05.Frames Per Second\Nucleon.cs" />
      <Compile Include="Assets\05.Frames Per Second\NucleonSpawner.cs" />
+     <Compile Include="Assets\06.Persisting Objects\Game.cs" />
+     <Compile Include="Assets\06.Persisting Objects\GameDataReader.cs" />
+     <Compile Include="Assets\06.Persisting Objects\GameDataWriter.cs" />
+     <Compile Include="Assets\06.Persisting Objects\PersistableObject.cs" />
+     <Compile Include="Assets\06.Persisting Objects\PersistentStorage.cs" />
      <None Include="Assets\03.Mathematical Srufaces\ColoredPoint.shader" />
      <None Include="Assets\02.Building a Graph\ColoredPoint.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
