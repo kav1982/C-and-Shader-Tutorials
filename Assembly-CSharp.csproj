@@ -66,6 +66,8 @@
      <Compile Include="Assets\06.Persisting Objects\GameDataWriter.cs" />
      <Compile Include="Assets\06.Persisting Objects\PersistableObject.cs" />
      <Compile Include="Assets\06.Persisting Objects\PersistentStorage.cs" />
+     <Compile Include="Assets\06.Persisting Objects\Shape.cs" />
+     <Compile Include="Assets\06.Persisting Objects\ShapeFactory.cs" />
      <None Include="Assets\03.Mathematical Srufaces\ColoredPoint.shader" />
      <None Include="Assets\02.Building a Graph\ColoredPoint.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
